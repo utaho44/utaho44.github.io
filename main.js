@@ -1,12 +1,12 @@
 /* global $, google */
 
-$('.profile-image').waypoint({
+$('#introduction-column').waypoint({
   handler: function(direction){
     if (direction === 'down'){
       $(this.element).addClass('animate__fadeInUp');
     }
   },
-  offset:'60%',
+  offset:'50%',
 });
 
 
