@@ -55,13 +55,13 @@ h2 {
   display:flex;
   justify-content:space-between;
   align-items:center;
+  opacity:0;
 }
 
 .profile-image {
   width:30vw;
   height:26.6666vw;
   border-radius:50%;
-  opacity:0;
 }
 
 #introduction-profile h3 {
