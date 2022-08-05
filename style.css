@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "utukusi";
+  src: url('fonts/UtsukushiFONT.otf') format("otf");
+  font-weight: normal;
+}
+
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color:#333333;
+}
+
+
+header {
+  width:100vw;
+  height:33.3333vw;
+}
+
+
+h1{
+  width:100vw;
+  height:33.3333vw;
+  background-image: url("image/header.png");
+  background-size: cover;
+}
+
+h2 {
+  margin-bottom:4vw;
+  font-size:1.866666vw;
+  padding-left:1rem;
+  border-left:0.5333vw solid	#00FFFF;
+
+}
+
+
+.container {
+  width:66.6666vw;
+  margin:0 auto;
+}
+
+#goods {
+  background-image:url("image/backimage1.jpg");
+  background-size:cover;
+}
+
+
+#introduction-container {
+  padding-top:5.3333vw;
+  padding-bottom:5.3333vw;
+}
+
+#introduction-column {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.profile-image {
+  width:30vw;
+  height:26.6666vw;
+  border-radius:50%;
+  opacity:0;
+}
+
+#introduction-profile h3 {
+  font-size:1.6vw;
+  margin-bottom:2vw;
+}
+
+
+
+#account {
+  background-image: url("image/backimage2.jpg");
+  background-size:cover;
+}
+
+#account-container {
+  padding-top:5.3333vw;
+  padding-bottom:6.3333vw;
+}
+
+.border-white {
+  border-left:0.5333vw solid 	#1E90FF;
+}
+
+
+#account-list {
+  display:flex;
+  justify-content:space-between;
+  text-align:center;
+  padding-right:3.3333vw;
+  padding-left:3.3333vw;
+  margin-top:2vw;
+  margin-bottom:2vw;
+}
+
+.account-content p{
+  margin-top:1.3333vw;
+}
+
+.icon{
+  font-size:6.6666vw;
+  color:blue;
+  display:inline-block;
+  transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+}
+
+.icon:hover {
+  -webkit-transform : scale(1.5,1.5);
+  -ms-transform : scale(1.5,1.5);
+  transform : scale(1.5,1.5);
+}
+
+
+
+#goods-container {
+  padding-top:5.3333vw;
+  padding-bottom:8.3333vw;
+}
+
+/*#goods {
+  padding: 0 20px
+}*/
+
+#sale-list {
+  max-width: 33.3333vw;
+  margin: 0 auto;
+}
+
+.sale-content {
+  height: 33.3333vw;
+  max-width: 33.3333vw;
+  margin: 0 auto;
+}
+
+.sale-content img{
+  width:33.3333vw;
+  height:33.3333vw;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+    font-size:3.3333vw;
+}
+
+
+
+
+footer {
+  background-color:	#5F9EA0;
+  height:4.6666vw;
+}
+
+#footer-container {
+  height:4.6666vw;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+}
